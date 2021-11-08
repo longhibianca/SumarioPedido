@@ -21,9 +21,9 @@ namespace SumarioPedido.Entities
             Price = price;
             Product = product;
         }
-        public double SubTotal(double price, int quantity)
+        public double SubTotal()
         {
-            return quantity * price;
+            return Quantity * Price;
         }
     }
 }
