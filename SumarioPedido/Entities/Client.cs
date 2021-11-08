@@ -8,7 +8,7 @@ namespace SumarioPedido.Entities
     {
         public string Name { get; set; }
         public string Email { get; set; }
-        public DateTime Date { get; set; }
+        public DateTime BirthDate { get; set; }
 
         public Client()
         {
@@ -19,7 +19,7 @@ namespace SumarioPedido.Entities
         {
             Name = name;
             Email = email;
-            Date = date;
+            BirthDate = date;
         }
     }
 }
